@@ -15,7 +15,7 @@
     </head>
     <body>
         <form>
-            <input name="p" style="width: 100%" placeholder="<?=@$_GET['p']?>">
+            <input name="p" style="width: 100%" placeholder="<?=@$_GET['p']?>" autofocus>
         </form>
         <?php
         if(!empty($_GET['p'])) {
