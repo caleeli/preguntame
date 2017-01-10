@@ -13,11 +13,14 @@
                 border: 2px solid black;
                 border-radius: 16px;
             }
+            input {
+                border: 1px solid gray;
+            }
         </style>
     </head>
     <body>
         <form>
-            <input name="p" style="width: 100%" placeholder="<?=@$_GET['p']?>" autofocus>
+            <input name="p" style="width: 100%" placeholder="<?=@$_GET['p']?$_GET['p']:'escribe tu pregunta'?>" autofocus>
         </form>
         <?php
         if(!empty($_GET['p'])) {
