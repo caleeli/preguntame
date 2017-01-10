@@ -2,6 +2,10 @@
     <head>
         <title>Preguntame algo</title>
         <style>
+            body, html {
+                width: 100%;
+                overflow: hidden;
+            }
             .selecciona {
                 width: 320px;
                 border: 2px solid black;
