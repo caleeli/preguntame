@@ -1,6 +1,13 @@
 <html>
     <head>
         <title>Preguntame algo</title>
+        <style>
+            .selecciona {
+                width: 20%;
+                border: 2px solid black;
+                border-radius: 16px;
+            }
+        </style>
     </head>
     <body>
         <form>
@@ -13,7 +20,7 @@
             foreach($dom->getElementsByTagName('img') as $img) {
                 if($img->hasAttribute('data-aria-label-part')) {
                     $src = $img->getAttribute('src');
-                    echo '<img src="'.$src.'" style="width:30%">';
+                    echo '<img class="selecciona" src="'.$src.'" >';
                 }
             }
         }
