@@ -15,6 +15,7 @@
             }
             input {
                 border: 1px solid gray;
+                font-size: 32px;
             }
         </style>
     </head>
