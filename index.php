@@ -11,7 +11,7 @@
     </head>
     <body>
         <form>
-            <input name="p" style="width: 100%">
+            <input name="p" style="width: 100%" placeholder="<?=@$_GET['p']?>">
         </form>
         <?php
         if(!empty($_GET['p'])) {
