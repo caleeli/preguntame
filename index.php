@@ -3,7 +3,7 @@
         <title>Preguntame algo</title>
         <style>
             .selecciona {
-                width: 20%;
+                width: 120px;
                 border: 2px solid black;
                 border-radius: 16px;
             }
