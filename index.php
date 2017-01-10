@@ -2,9 +2,11 @@
     <head>
         <title>Preguntame algo</title>
         <style>
-            body, html {
+            body, html, form {
                 width: 100%;
                 overflow: hidden;
+                margin: 0px;
+                padding: 0px;
             }
             .selecciona {
                 width: 320px;
