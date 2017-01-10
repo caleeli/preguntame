@@ -20,7 +20,10 @@
     </head>
     <body>
         <form>
-            <input name="p" style="width: 100%" placeholder="<?=@$_GET['p']?$_GET['p']:'escribe tu pregunta'?>" autofocus>
+            <input id="pregunta" name="p" style="width: 100%" placeholder="<?=@$_GET['p']?$_GET['p']:'escribe tu pregunta'?>" autofocus>
+            <script>
+                document.getElementById("pregunta").focus();
+            </script>
         </form>
         <?php
         if(!empty($_GET['p'])) {
